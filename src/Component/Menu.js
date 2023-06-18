@@ -42,7 +42,7 @@ const Menu = () => {
                     <div className="menu-item-con" key={item.id}>
                         <img src={item.image} alt="" />
                         <div className="item-name-price-con">
-                        <p>{item.name}</p>
+                        <p className="food-title">{item.name}</p>
                         <p>${item.price}</p>
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident eveniet suscipit atque eius ab sunt cum perspiciatis harum laborum natus?</p>

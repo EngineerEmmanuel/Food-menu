@@ -1,5 +1,6 @@
 
 import Menu from "./Component/Menu";
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -7,7 +8,10 @@ import Menu from "./Component/Menu";
 function App() {
   return (
     <div className="App">
+      <Fade top>
       <Menu/>
+      </Fade>
+      
       
     </div>
   );
